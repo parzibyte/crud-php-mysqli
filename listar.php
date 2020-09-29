@@ -31,6 +31,9 @@ $videojuegos = $resultado->fetch_all(MYSQLI_ASSOC);
 ?>
 <div class="row">
     <div class="col-12">
+        <h1>Listado de videojuegos</h1>
+    </div>
+    <div class="col-12">
         <a class="btn btn-success my-2" href="formulario_registrar.php">Agregar nuevo</a>
         <table class="table">
             <thead>
@@ -61,4 +64,4 @@ $videojuegos = $resultado->fetch_all(MYSQLI_ASSOC);
         </table>
     </div>
 </div>
-<?php include_once "encabezado.php" ?>
+<?php include_once "pie.php" ?>
